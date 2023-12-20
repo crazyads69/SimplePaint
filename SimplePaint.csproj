@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B3EC548-E848-4409-9F63-2316BBDAA2FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SimplePaint</RootNamespace>
+    <AssemblyName>SimplePaint</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\SpecialForm.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\EditPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EditPicture.Designer.cs">
+      <DependentUpon>EditPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\EditPicture.resx">
+      <DependentUpon>EditPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Africa_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bright Moon_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brush.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloud_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contacts_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erase_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Facebook Like_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flip Horizontal_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flip Vertical_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Full Image_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Full Moon_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Handshake_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Happy_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\In Love_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instagram_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOL_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\More_32px_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Musical Notes_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle Stroked_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate Left_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate Left_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate Right_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rotate_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping Cart_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shutdown_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Triangle_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Walking_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom In_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom Out_32px.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

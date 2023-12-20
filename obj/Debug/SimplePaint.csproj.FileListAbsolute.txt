@@ -1,0 +1,11 @@
+\\Mac\Home\Documents\Project\SimplePaint\bin\Debug\SimplePaint.exe.config
+\\Mac\Home\Documents\Project\SimplePaint\bin\Debug\SimplePaint.exe
+\\Mac\Home\Documents\Project\SimplePaint\bin\Debug\SimplePaint.pdb
+\\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.Properties.Resources.resources
+\\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.UI.EditPicture.resources
+\\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.UI.Home.resources
+\\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.csproj.GenerateResource.cache
+\\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.exe
+\\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.pdb
