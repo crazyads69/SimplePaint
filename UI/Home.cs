@@ -41,5 +41,29 @@ namespace SimplePaint.UI
 				modifiedPage.Show();
 			}
 		}
+		private void OpenDrawWindows()
+		{
+			DrawPicture draw_Windows = new DrawPicture();
+			draw_Windows.Show();
+		}
+
+		private void CloseApp()
+		{
+			DialogResult exitResult = MessageBox.Show("Are you sure you want to quit SimplePaint?", "Quit ? ", MessageBoxButtons.YesNo);
+			if (exitResult == DialogResult.Yes)
+			{
+				Dispose();
+			}
+		}
+
+		private void quitToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			CloseApp();
+		}
+
+		private void newFileToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			OpenDrawWindows();
+		}
 	}
 }

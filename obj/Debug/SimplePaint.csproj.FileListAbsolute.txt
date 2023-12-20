@@ -9,3 +9,4 @@
 \\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.exe
 \\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.pdb
+\\Mac\Home\Documents\Project\SimplePaint\obj\Debug\SimplePaint.UI.DrawPicture.resources
