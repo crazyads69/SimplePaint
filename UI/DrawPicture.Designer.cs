@@ -141,7 +141,7 @@
             this.printToolStripMenuItem,
             this.quitToolStripMenuItem});
 			this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-			this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 44);
+			this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 36);
 			this.fileToolStripMenuItem.Text = "File";
 			this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
 			// 
@@ -178,7 +178,7 @@
 			this.drawToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.resetToolStripMenuItem});
 			this.drawToolStripMenuItem.Name = "drawToolStripMenuItem";
-			this.drawToolStripMenuItem.Size = new System.Drawing.Size(88, 44);
+			this.drawToolStripMenuItem.Size = new System.Drawing.Size(88, 36);
 			this.drawToolStripMenuItem.Text = "Draw";
 			this.drawToolStripMenuItem.Click += new System.EventHandler(this.drawToolStripMenuItem_Click);
 			// 
@@ -567,6 +567,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.AutoScroll = true;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.ClientSize = new System.Drawing.Size(2004, 1227);
 			this.Controls.Add(this.groupBox_Forms);
@@ -578,6 +579,7 @@
 			this.Controls.Add(this.groupBox_File);
 			this.MainMenuStrip = this.menuStrip1;
 			this.Margin = new System.Windows.Forms.Padding(6);
+			this.MaximizeBox = false;
 			this.Name = "DrawPicture";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Draw";

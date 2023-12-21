@@ -58,7 +58,7 @@
             this.fileToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(1574, 40);
+			this.menuStrip1.Size = new System.Drawing.Size(1836, 44);
 			this.menuStrip1.TabIndex = 0;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -116,22 +116,23 @@
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.Location = new System.Drawing.Point(162, 43);
+			this.pictureBox1.Location = new System.Drawing.Point(324, 83);
+			this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(1412, 774);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBox1.Size = new System.Drawing.Size(2824, 1488);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBox1.TabIndex = 1;
 			this.pictureBox1.TabStop = false;
 			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
 			// 
 			// btn_flipHorizontal
 			// 
-			this.btn_flipHorizontal.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.025F);
 			this.btn_flipHorizontal.Image = global::SimplePaint.Properties.Resources.Flip_Horizontal_64px;
 			this.btn_flipHorizontal.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-			this.btn_flipHorizontal.Location = new System.Drawing.Point(2, 43);
+			this.btn_flipHorizontal.Location = new System.Drawing.Point(4, 83);
+			this.btn_flipHorizontal.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.btn_flipHorizontal.Name = "btn_flipHorizontal";
-			this.btn_flipHorizontal.Size = new System.Drawing.Size(142, 141);
+			this.btn_flipHorizontal.Size = new System.Drawing.Size(284, 271);
 			this.btn_flipHorizontal.TabIndex = 2;
 			this.btn_flipHorizontal.Text = "Flip Horizontal";
 			this.btn_flipHorizontal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -140,12 +141,12 @@
 			// 
 			// btn_flipVertical
 			// 
-			this.btn_flipVertical.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.025F);
 			this.btn_flipVertical.Image = global::SimplePaint.Properties.Resources.Flip_Vertical_64px;
 			this.btn_flipVertical.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-			this.btn_flipVertical.Location = new System.Drawing.Point(2, 190);
+			this.btn_flipVertical.Location = new System.Drawing.Point(4, 365);
+			this.btn_flipVertical.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.btn_flipVertical.Name = "btn_flipVertical";
-			this.btn_flipVertical.Size = new System.Drawing.Size(142, 134);
+			this.btn_flipVertical.Size = new System.Drawing.Size(284, 258);
 			this.btn_flipVertical.TabIndex = 3;
 			this.btn_flipVertical.Text = "Flip Vertical";
 			this.btn_flipVertical.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -154,12 +155,12 @@
 			// 
 			// btn_rotateRight
 			// 
-			this.btn_rotateRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.025F);
 			this.btn_rotateRight.Image = global::SimplePaint.Properties.Resources.Rotate_Right_52px;
 			this.btn_rotateRight.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-			this.btn_rotateRight.Location = new System.Drawing.Point(2, 330);
+			this.btn_rotateRight.Location = new System.Drawing.Point(4, 635);
+			this.btn_rotateRight.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.btn_rotateRight.Name = "btn_rotateRight";
-			this.btn_rotateRight.Size = new System.Drawing.Size(142, 131);
+			this.btn_rotateRight.Size = new System.Drawing.Size(284, 252);
 			this.btn_rotateRight.TabIndex = 4;
 			this.btn_rotateRight.Text = "Rotate Right";
 			this.btn_rotateRight.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -168,12 +169,12 @@
 			// 
 			// btn_rotateLeft
 			// 
-			this.btn_rotateLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.025F);
 			this.btn_rotateLeft.Image = global::SimplePaint.Properties.Resources.Rotate_Left_52px;
 			this.btn_rotateLeft.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-			this.btn_rotateLeft.Location = new System.Drawing.Point(2, 467);
+			this.btn_rotateLeft.Location = new System.Drawing.Point(4, 898);
+			this.btn_rotateLeft.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.btn_rotateLeft.Name = "btn_rotateLeft";
-			this.btn_rotateLeft.Size = new System.Drawing.Size(142, 140);
+			this.btn_rotateLeft.Size = new System.Drawing.Size(284, 269);
 			this.btn_rotateLeft.TabIndex = 5;
 			this.btn_rotateLeft.Text = "Rotate Left";
 			this.btn_rotateLeft.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -202,7 +203,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1574, 829);
+			this.ClientSize = new System.Drawing.Size(1836, 1113);
 			this.Controls.Add(this.btn_rotateLeft);
 			this.Controls.Add(this.btn_rotateRight);
 			this.Controls.Add(this.btn_flipVertical);
@@ -210,6 +211,7 @@
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.menuStrip1);
 			this.MainMenuStrip = this.menuStrip1;
+			this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.Name = "EditPicture";
 			this.ShowIcon = false;
 			this.Text = "EditPicture";

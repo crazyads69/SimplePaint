@@ -133,8 +133,7 @@ namespace SimplePaint.UI
 
 			this.Width = this.Width - 50;
 
-			btn_ZoomIn.Enabled = false;
-			btn_ZoomOut.Enabled = false;
+
 
 		}
 		private void btn_pencil_Click(object sender, EventArgs e)
